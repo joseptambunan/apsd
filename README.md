@@ -11,6 +11,7 @@ How to run my code
  - run this command php artisan make:job RegisterUser
  - run this command php artisan queue:table
  - run this command php artisan migrate
+ - composer dump-autoload
  - for test please run this link 
  - via browser :  localhost/user/token
  - via curl : curl -X GET \
