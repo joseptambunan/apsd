@@ -9,6 +9,7 @@ How to run my code
  - run this command php artisan vendor:publish --provider="Nwidart\Modules\LaravelModulesServiceProvider"
  - run this command php artisan migrate
  - run this command php artisan config:cache
+ - run this command php artisan make:job RegisterUser
  - for test please run this link 
  - via browser :  localhost/user/token
  - via curl : curl -X GET \
