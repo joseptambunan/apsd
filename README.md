@@ -18,3 +18,4 @@ How to run my code
   http://localhost/user/token \
   -H 'cache-control: no-cache' \
   -H 'postman-token: 1798c437-a00c-5225-c426-d30ddbb9e99d'
+ - IN postman, If any header need x-csrf-token, please get token from this url {{host}}/user/token
