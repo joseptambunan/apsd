@@ -5,6 +5,13 @@ Spesifikasi :
   
 How to run my code 
  - composer install
- - php artisan vendor:publish --provider="Nwidart\Modules\LaravelModulesServiceProvider"
- - php artisan migrate
  - Create Database with name aps
+ - run this command php artisan vendor:publish --provider="Nwidart\Modules\LaravelModulesServiceProvider"
+ - run this command php artisan migrate
+ - run this command php artisan config:cache
+ - for test please run this link 
+ - via browser :  localhost/user/token
+ - via curl : curl -X GET \
+  http://localhost/user/token \
+  -H 'cache-control: no-cache' \
+  -H 'postman-token: 1798c437-a00c-5225-c426-d30ddbb9e99d'
