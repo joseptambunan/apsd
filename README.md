@@ -7,9 +7,10 @@ How to run my code
  - composer install
  - Create Database with name aps
  - run this command php artisan vendor:publish --provider="Nwidart\Modules\LaravelModulesServiceProvider"
- - run this command php artisan migrate
  - run this command php artisan config:cache
  - run this command php artisan make:job RegisterUser
+ - run this command php artisan queue:table
+ - run this command php artisan migrate
  - for test please run this link 
  - via browser :  localhost/user/token
  - via curl : curl -X GET \
