@@ -17,4 +17,6 @@ Route::prefix('user')->group(function() {
     Route::post('/login','UserController@login');
     Route::post('/view','UserController@view');
     Route::post('/destroy','UserController@destroy');
+    Route::get('/logout','UserController@logout');
+    Route::get('/','UserController@viewAll');
 });

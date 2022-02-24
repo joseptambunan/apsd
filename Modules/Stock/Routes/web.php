@@ -18,4 +18,7 @@ Route::prefix('stock')->group(function() {
     Route::post('/submit','StockController@submitTransaksi');
     Route::get('/transaksi/user/{id}','StockController@viewTransaksibyUser');
     Route::get('/transaksi/stock/{id}','StockController@viewTransaksibyStock');
+    Route::get('/get_product_user','StockController@getProductUser');
+    Route::get('/history','StockController@history');
+    Route::get('/view','StockController@viewAll');
 });

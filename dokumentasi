@@ -1,0 +1,36 @@
+How to create user
+- Login with default user
+	Username : josep.tambunan7@gmail.com	
+	Pass : 123
+
+- Choose USER menu
+- In USER menu, list all view will be show
+- Click Add User to create new user
+- Fill the form with email and password
+- Click Submit
+- After submit page will be direct to USER menu
+
+
+
+How to create stock
+- Login with default user
+	Username : josep.tambunan7@gmail.com	
+	Pass : 123
+
+- Choose STOCK menu
+- In STOCK menu, list all view will be show
+- Click Add Stock to create new stock
+- Fill the form with name, SKU and stock
+- Click Submit
+- After submit page will be direct to detail stock
+- In detail stock will be show transaction history
+
+How to create stock
+- Login with default user
+	Username : josep.tambunan7@gmail.com	
+	Pass : 123
+- Choose Transaction menu
+- In Transaction menu, fill the from with product, user and qty
+- Click Add Transaction
+- After submit page will be direct to detail stock
+- In detail stock will be show transaction history

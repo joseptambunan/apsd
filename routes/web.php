@@ -14,5 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    echo "NOT ALLOW";
+    return redirect("stock");
+})->middleware("auth");
+
+Route::get('/user/login', function () {
+    return view("user::index");
 })->name('login');

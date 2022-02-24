@@ -102,4 +102,13 @@ class UserController extends Controller
         $response['message'] = "Success Install";
         echo json_encode($response);
     }
+
+    public function logout(){
+       Auth::logout() ;
+       return redirect("/");
+    }
+
+    public function viewAll(){
+        return view("user::user_view");
+    }
 }
